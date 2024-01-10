@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "First Python",
+    "language": "Python",
+    "code": "print('Hello, World!')"
+  },
+  {
+    "id": 2,
+    "title": "Add",
+    "language": "Python",
+    "code": "def add(a, b):\n    return a + b"
+  },
+  {
+    "id": 3,
+    "title": "Circle",
+    "language": "Python",
+    "code": "class Circle:\n    def __init__(self, radius):\n        self.radius = radius\n\n    def area(self):\n        return 3.14 * self.radius ** 2"
+  },
+  {
+    "id": 4,
+    "title": "Hello, World!",
+    "language": "JavaScript",
+    "code": "console.log('Hello, World!');"
+  },
+  {
+    "id": 5,
+    "title": "Multiply",
+    "language": "JavaScript",
+    "code": "function multiply(a, b) {\n    return a * b;\n}"
+  },
+  {
+    "id": 6,
+    "title": "Square",
+    "language": "JavaScript",
+    "code": "const square = num => num * num;"
+  },
+  {
+    "id": 7,
+    "title": "HelloWorld",
+    "language": "Java",
+    "code": "public class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}"
+  },
+  {
+    "id": 8,
+    "title": "Rectangle",
+    "language": "Java",
+    "code": "public class Rectangle {\n    private int width;\n    private int height;\n\n    public Rectangle(int width, int height) {\n        this.width = width;\n        this.height = height;\n    }\n\n    public int getArea() {\n        return width * height;\n    }\n}"
+  }
+]
