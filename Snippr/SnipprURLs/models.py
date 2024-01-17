@@ -4,7 +4,7 @@ from django.utils import timezone
 class SnipprSnippet(models.Model):
     title = models.CharField(max_length=200)
     language = models.CharField(max_length=200)
-    code = models.TextField()
+    code = models.BinaryField()
 
     def __str__(self):
         return self.title
