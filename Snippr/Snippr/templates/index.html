@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Snippr</title>
+  </head>
+  <body style="text-align: center;">
+    {% if session %}
+    <h1>Welcome, {{session.userinfo.name}}!</h1>
+    <p><a href="{% url 'logout' %}">Logout</a></p>
+    <div>
+      <img src={{session.userinfo.picture}} style="border-radius: 32px; transform: scale(0.85)">
+      <p>{{session.userinfo.name}}</p>
+      <p>{{session.userinfo.email}}</p>
+    </div>
+    {% else %}
+    <h1>Welcome Guest</h1>
+    <p><a href="{% url 'login' %}">Login</a></p>
+    {% endif %}
+  </body>
+</html>
